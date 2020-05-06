@@ -1,0 +1,103 @@
+body{
+    background: url("../images/imagen.jpg");
+}
+
+.main-header{
+    position: relative;
+    height: 200px;
+
+
+}
+
+.banner img{
+    overflow: hidden;
+    max-width: 100%;   
+    display: block;
+    margin: 0 auto;
+}
+a{
+    color:white;
+    padding:5px;
+    text-decoration: none;
+    margin: 10px;
+    padding:5px;
+
+}
+.logo{
+    width:125px;
+    height:125px;
+    border-radius:150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+ 
+}
+.main-nav{
+    position: absolute;
+    left: 0;
+    right:0;
+    bottom: 0vh;
+    margin:auto;
+}
+
+nav li{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: grey;
+}
+.vip-products{  
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    margin: 20px;
+    width:44%;
+    position: relative;
+}
+
+.photo{
+    width: 107%;
+}
+.special{
+    position: absolute;
+    top: 0vh;
+    right: -3vw;
+
+}
+.zoom{
+    position: absolute;
+    background: grey;
+    display: block;
+    text-align: center;
+    opacity: 0.5;
+    top: 8vh;
+    width:103%;
+    left: -1vw;
+
+}
+h2{
+    margin-left: 20px
+}
+p{
+    width:60%;
+    margin-left: 20px;
+
+}
+.more{
+    background-color: grey;
+    color: white;
+    margin-left: 20px;
+}
+
+.main-footer ul li{
+    background-color: grey;
+    width: 95%;
+    overflow: hidden;
+    margin-right: 20px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
